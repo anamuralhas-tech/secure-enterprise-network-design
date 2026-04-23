@@ -1,6 +1,6 @@
 # Secure Enterprise Network Design
 
-This repository documents the design of a secure and redundant enterprise network infrastructure created for a two-site business environment.
+This repository documents the design of a secure, segmented, and redundant enterprise network infrastructure for a two-site business environment.
 
 The project was developed as a complete network design case study, combining operational requirements, topology analysis, IP planning, equipment selection, segmentation, physical infrastructure, continuity strategy, and investment analysis.
 
@@ -28,7 +28,7 @@ This design project covers the following areas:
 - site-to-site VPN design
 - WAN redundancy
 - firewall and switch selection
-- server, NAS, and backup strategy
+- on-premises server and NAS strategy
 - Wi-Fi guest isolation
 - CCTV and access control integration
 - structured cabling and rack planning
@@ -66,8 +66,8 @@ The main objective of this project was to design a coherent enterprise network t
 - Layer 3 core switching
 - PoE+ access switching
 - access points
-- NAS
-- enterprise server platform
+- on-premises server platform
+- NAS integration
 
 ### Passive Infrastructure
 - Cat6A structured cabling
@@ -115,10 +115,10 @@ secure-enterprise-network-design/
     ├── design-decisions.md
     └── technical-scope.md
 
-## Documentation Note
+Documentation Note
 
 The original academic document contains contextual references that may be revised before full publication. For that reason, this repository is being prepared in stages, starting with a public project overview and technical design structure.
 
-## Status
+Status
 
 In progress — public-facing project structure and documentation are being prepared.
